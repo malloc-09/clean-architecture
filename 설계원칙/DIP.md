@@ -15,7 +15,7 @@ DIP가 위배되면 OCP 깨짐
 
 #### 팩토리
 대다수 객체지향 언어는 추상 팩토리를 사용하여 의존성을 처리함
-![image](./images/dip.png)
+![image](./images/dip.png)  
 Application에서 Concrete Impl과 의존성을 없애면서 생성하기 위해 ServiceFactory 인터페이스를 이용함.   
 ServiceFactoryImpl은 ConcreteImpl을 생성하여 리턴.  
 제어 흐름이 소스 코드 의존성과 반대로 역전되기 때문에 의존성 역전이라고 부름.
